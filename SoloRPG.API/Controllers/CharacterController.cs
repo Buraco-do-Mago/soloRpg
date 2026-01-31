@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using SoloRPG.Application.DTOs;
+using SoloRPG.Application.Comandos;
 using SoloRPG.Application.Services;
 
 namespace SoloRPG.API.Controllers;
@@ -8,19 +8,11 @@ namespace SoloRPG.API.Controllers;
 [Route("api/character")]
 public class CharacterController : ControllerBase
 {
-    private readonly CharacterService _service;
-
-    public CharacterController(CharacterService service)
-    {
-        _service = service;
-    }
-
     [HttpPost]
-    public IActionResult Create([FromBody] CreateCharacterDto dto)
+    public IActionResult Create([FromBody] CriarPersonagemComando comando)
     {
-        string playerId = "PLAYER_TEST"; // depois vem do login
-
-        var character = _service.Create(playerId, dto);
+        var playerId = Guid.NewGuid(); // depois vem do login
+        var character = ServiçoDeCriaçãoDeFicha.CriarFicha(playerId,  comando);
         return Ok(character);
     }
 }
