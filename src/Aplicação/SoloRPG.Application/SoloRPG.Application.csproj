@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\SoloRPG.Domain\SoloRPG.Domain.csproj" />
+    <ProjectReference Include="..\..\Domínio\SoloRPG.Domain\SoloRPG.Domain.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

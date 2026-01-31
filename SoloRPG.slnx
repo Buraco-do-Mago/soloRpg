@@ -4,8 +4,8 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="SoloRPG.API/SoloRPG.API.csproj" />
-  <Project Path="SoloRPG.Application/SoloRPG.Application.csproj" />
-  <Project Path="SoloRPG.Domain/SoloRPG.Domain.csproj" />
-  <Project Path="SoloRPG.Infrastructure/SoloRPG.Infrastructure.csproj" />
+  <Project Path="src/Serviços/SoloRPG.API/SoloRPG.API.csproj" />
+  <Project Path="src/Aplicação/SoloRPG.Application/SoloRPG.Application.csproj" />
+  <Project Path="src/Domínio/SoloRPG.Domain/SoloRPG.Domain.csproj" />
+  <Project Path="src/Infraestrutura/SoloRPG.Infrastructure/SoloRPG.Infrastructure.csproj" />
 </Solution>

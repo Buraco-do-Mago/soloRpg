@@ -11,8 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SoloRPG.Application\SoloRPG.Application.csproj" />
-    <ProjectReference Include="..\SoloRPG.Domain\SoloRPG.Domain.csproj" />
+    <ProjectReference Include="..\..\Aplicação\SoloRPG.Application\SoloRPG.Application.csproj" />
   </ItemGroup>
 
 </Project>
