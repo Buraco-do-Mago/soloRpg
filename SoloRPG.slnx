@@ -1,0 +1,11 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="SoloRPG.API/SoloRPG.API.csproj" />
+  <Project Path="SoloRPG.Application/SoloRPG.Application.csproj" />
+  <Project Path="SoloRPG.Domain/SoloRPG.Domain.csproj" />
+  <Project Path="SoloRPG.Infrastructure/SoloRPG.Infrastructure.csproj" />
+</Solution>
