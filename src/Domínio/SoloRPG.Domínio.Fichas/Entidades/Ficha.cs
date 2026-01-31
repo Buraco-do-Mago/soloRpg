@@ -1,7 +1,7 @@
-﻿using SoloRPG.Domain.Personagens.Dtos;
-using SoloRPG.Domain.Regras.Flags;
+﻿using SoloRPG.Domínio.Fichas.Dtos;
+using SoloRPG.Domínio.Regras.Flags;
 
-namespace SoloRPG.Domain.Personagens.Entidades;
+namespace SoloRPG.Domínio.Fichas.Entidades;
 
 public class Ficha
 {

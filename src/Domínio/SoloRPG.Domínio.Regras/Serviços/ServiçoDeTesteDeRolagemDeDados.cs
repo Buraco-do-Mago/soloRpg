@@ -1,7 +1,7 @@
-using SoloRPG.Domain.Regras.Dtos;
-using SoloRPG.Domain.Regras.Enumerados;
+using SoloRPG.Domínio.Regras.Dtos;
+using SoloRPG.Domínio.Regras.Enumerados;
 
-namespace SoloRPG.Domain.Regras.Serviços;
+namespace SoloRPG.Domínio.Regras.Serviços;
 
 public class ServiçoDeTesteDeRolagemDeDados
 {

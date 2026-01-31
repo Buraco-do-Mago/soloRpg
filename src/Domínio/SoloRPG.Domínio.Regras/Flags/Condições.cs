@@ -1,4 +1,4 @@
-﻿namespace SoloRPG.Domain.Regras.Flags;
+﻿namespace SoloRPG.Domínio.Regras.Flags;
 
 [Flags]
 public enum Condições

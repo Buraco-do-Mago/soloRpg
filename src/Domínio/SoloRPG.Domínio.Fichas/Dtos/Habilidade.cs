@@ -1,4 +1,4 @@
-﻿namespace SoloRPG.Domain.Personagens;
+﻿namespace SoloRPG.Domínio.Fichas.Dtos;
 
 public class Habilidade
 {

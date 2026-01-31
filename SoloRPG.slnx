@@ -15,7 +15,7 @@
   <Folder Name="/src/Aplicação/">
     <Project Path="src/Aplicação/SoloRPG.Application/SoloRPG.Application.csproj" />
   </Folder>
-    <Folder Name="/src/Infraestrutura/">
+  <Folder Name="/src/Infraestrutura/">
     <Project Path="src/Infraestrutura/SoloRPG.Infrastructure/SoloRPG.Infrastructure.csproj" />
   </Folder>
 </Solution>

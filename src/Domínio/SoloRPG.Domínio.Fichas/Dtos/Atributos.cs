@@ -1,4 +1,4 @@
-﻿namespace SoloRPG.Domain.Personagens.Dtos;
+﻿namespace SoloRPG.Domínio.Fichas.Dtos;
 
 public class Atributos
 {

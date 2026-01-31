@@ -1,11 +1,11 @@
-﻿using SoloRPG.Application.Comandos;
-using SoloRPG.Domain.Personagens.Entidades;
+﻿using SoloRPG.Domínio.Fichas.Comandos;
+using SoloRPG.Domínio.Fichas.Entidades;
 
-namespace SoloRPG.Application.Services;
+namespace SoloRPG.Application.Serviços;
 
 public class ServiçoDeCriaçãoDeFicha
 {
-    public static Ficha CriarFicha(Guid playerId, CriarPersonagemComando comando)
+    public static Ficha CriarFicha(Guid playerId, CriarFichaComando comando)
     {
         int vidaMáxima = 20 + (comando.Atributos.Constituição * 2);
         return new Ficha

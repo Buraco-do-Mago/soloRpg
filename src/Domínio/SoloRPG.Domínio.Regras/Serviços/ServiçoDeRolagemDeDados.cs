@@ -1,4 +1,4 @@
-﻿namespace SoloRPG.Domain.Regras.Serviços;
+﻿namespace SoloRPG.Domínio.Regras.Serviços;
 
 public static class ServiçoDeRolagemDeDados
 {

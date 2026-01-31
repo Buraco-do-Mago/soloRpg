@@ -1,6 +1,6 @@
-﻿using SoloRPG.Domain.Regras.Enumerados;
+﻿using SoloRPG.Domínio.Regras.Enumerados;
 
-namespace SoloRPG.Domain.Regras.Dtos;
+namespace SoloRPG.Domínio.Regras.Dtos;
 
 public class ResultadoDoTesteDeRolagemDeDados
 {

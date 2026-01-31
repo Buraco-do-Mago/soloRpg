@@ -1,8 +1,8 @@
-﻿using SoloRPG.Domain.Personagens.Dtos;
+﻿using SoloRPG.Domínio.Fichas.Dtos;
 
-namespace SoloRPG.Application.Comandos;
+namespace SoloRPG.Domínio.Fichas.Comandos;
 
-public class CriarPersonagemComando
+public class CriarFichaComando
 {
     public required string Nome { get; set; }
     public required string Classe { get; set; }

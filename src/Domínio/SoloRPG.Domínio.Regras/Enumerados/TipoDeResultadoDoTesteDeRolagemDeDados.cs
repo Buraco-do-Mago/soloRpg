@@ -1,4 +1,4 @@
-namespace SoloRPG.Domain.Regras.Enumerados;
+namespace SoloRPG.Domínio.Regras.Enumerados;
 
 public enum TipoDeResultadoDoTesteDeRolagemDeDados
 {
