@@ -1,0 +1,21 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+</Configurations>
+  <Folder Name="/src/" />
+  <Folder Name="/src/Serviços/">
+    <Project Path="src/Serviços/SoloRPG.API/SoloRPG.API.csproj" />
+  </Folder>
+  <Folder Name="/src/Domínio/">
+    <Project Path="src/Domínio/SoloRPG.Domínio.Fichas/SoloRPG.Domínio.Fichas.csproj" />
+    <Project Path="src/Domínio/SoloRPG.Domínio.Regras/SoloRPG.Domínio.Regras.csproj" />
+  </Folder>
+  <Folder Name="/src/Aplicação/">
+    <Project Path="src/Aplicação/SoloRPG.Application/SoloRPG.Application.csproj" />
+  </Folder>
+  <Folder Name="/src/Infraestrutura/">
+    <Project Path="src/Infraestrutura/SoloRPG.Infrastructure/SoloRPG.Infrastructure.csproj" />
+  </Folder>
+</Solution>
