@@ -1,6 +1,6 @@
-﻿using SoloRPG.Domínio.Regras.Enumerados;
+﻿using SoloRPG.Domain.Rules.Enums;
 
-namespace SoloRPG.Domínio.Regras.Dtos;
+namespace SoloRPG.Domain.Rules.Dtos;
 
 public class DiceTestResult
 {

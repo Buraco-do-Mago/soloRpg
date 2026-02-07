@@ -1,7 +1,7 @@
-﻿using SoloRPG.Domínio.Fichas.Dtos;
-using SoloRPG.Domínio.Regras.Flags;
+﻿using SoloRPG.Domain.Rules.Flags;
+using SoloRPG.Domain.Sheets.Dtos;
 
-namespace SoloRPG.Domínio.Fichas.Entidades;
+namespace SoloRPG.Domain.Sheets.Entities;
 
 public class Sheet
 {

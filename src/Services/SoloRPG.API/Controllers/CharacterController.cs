@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SoloRPG.Application.Services;
-using SoloRPG.Domínio.Fichas.Comandos;
+using SoloRPG.Domain.Sheets.Commands;
 
 namespace SoloRPG.API.Controllers;
 

@@ -1,5 +1,5 @@
-﻿using SoloRPG.Domínio.Fichas.Comandos;
-using SoloRPG.Domínio.Fichas.Entidades;
+﻿using SoloRPG.Domain.Sheets.Commands;
+using SoloRPG.Domain.Sheets.Entities;
 
 namespace SoloRPG.Application.Services;
 

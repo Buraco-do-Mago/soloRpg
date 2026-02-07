@@ -1,4 +1,4 @@
-namespace SoloRPG.Domínio.Regras.Enumerados;
+namespace SoloRPG.Domain.Rules.Enums;
 
 public enum DiceTestResultType
 {

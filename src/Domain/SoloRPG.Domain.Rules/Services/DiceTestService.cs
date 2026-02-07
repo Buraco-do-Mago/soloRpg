@@ -1,7 +1,7 @@
-using SoloRPG.Domínio.Regras.Dtos;
-using SoloRPG.Domínio.Regras.Enumerados;
+using SoloRPG.Domain.Rules.Dtos;
+using SoloRPG.Domain.Rules.Enums;
 
-namespace SoloRPG.Domínio.Regras.Serviços;
+namespace SoloRPG.Domain.Rules.Services;
 
 public class DiceTestService
 {

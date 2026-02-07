@@ -1,4 +1,4 @@
-﻿namespace SoloRPG.Domínio.Fichas.Dtos;
+﻿namespace SoloRPG.Domain.Sheets.Dtos;
 
 public class Skill
 {

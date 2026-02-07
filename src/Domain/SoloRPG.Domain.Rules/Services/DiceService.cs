@@ -1,4 +1,4 @@
-﻿namespace SoloRPG.Domínio.Regras.Serviços;
+﻿namespace SoloRPG.Domain.Rules.Services;
 
 public static class DiceService
 {

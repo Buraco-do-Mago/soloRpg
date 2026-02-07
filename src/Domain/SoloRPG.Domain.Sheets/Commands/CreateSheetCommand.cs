@@ -1,6 +1,6 @@
-﻿using SoloRPG.Domínio.Fichas.Dtos;
+﻿using SoloRPG.Domain.Sheets.Dtos;
 
-namespace SoloRPG.Domínio.Fichas.Comandos;
+namespace SoloRPG.Domain.Sheets.Commands;
 
 public class CreateSheetCommand
 {
