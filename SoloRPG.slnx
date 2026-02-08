@@ -6,7 +6,7 @@
 </Configurations>
   <Folder Name="/src/" />
   <Folder Name="/src/Services/">
-    <Project Path="src/Services/SoloRPG.API/SoloRPG.API.csproj" />
+    <Project Path="src/Services/SoloRPG.Api/SoloRPG.Api.csproj" />
   </Folder>
   <Folder Name="/src/Domain/">
     <Project Path="src/Domain/SoloRPG.Domain.Sheets/SoloRPG.Domain.Sheets.csproj" />

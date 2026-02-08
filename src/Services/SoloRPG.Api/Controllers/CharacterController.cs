@@ -2,7 +2,7 @@
 using SoloRPG.Application.Services;
 using SoloRPG.Domain.Sheets.Commands;
 
-namespace SoloRPG.API.Controllers;
+namespace SoloRPG.Api.Controllers;
 
 [ApiController]
 [Route("api/character")]
