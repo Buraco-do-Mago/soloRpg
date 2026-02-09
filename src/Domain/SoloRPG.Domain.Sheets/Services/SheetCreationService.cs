@@ -1,7 +1,7 @@
 ﻿using SoloRPG.Domain.Sheets.Commands;
 using SoloRPG.Domain.Sheets.Entities;
 
-namespace SoloRPG.Application.Services;
+namespace SoloRPG.Domain.Sheets.Services;
 
 public class SheetCreationService
 {
