@@ -1,5 +1,8 @@
-﻿namespace SoloRPG.Domain.Sheets.Dtos;
+﻿using Microsoft.EntityFrameworkCore;
 
+namespace SoloRPG.Domain.Sheets.Dtos;
+
+[Owned]
 public class Attributes
 {
     public int Strength { get; set; }

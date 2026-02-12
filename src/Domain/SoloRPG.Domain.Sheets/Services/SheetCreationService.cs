@@ -1,14 +1,15 @@
-﻿using SoloRPG.Domain.Sheets.Commands;
+﻿using Microsoft.EntityFrameworkCore;
+using SoloRPG.Domain.Sheets.Commands;
 using SoloRPG.Domain.Sheets.Entities;
 
-namespace SoloRPG.Application.Services;
+namespace SoloRPG.Domain.Sheets.Services;
 
-public class SheetCreationService
+public class SheetCreationService(DbContext dbContext)
 {
-    public static Sheet CreateSheet(Guid playerId, CreateSheetCommand command)
+    public Sheet CreateSheet(Guid playerId, CreateSheetCommand command)
     {
         int maxLife = 20 + (command.Attributes.Constitution * 2);
-        return new Sheet
+        var sheet = new Sheet
         {
             PlayerId = playerId,
             Name = command.Name,
@@ -19,5 +20,8 @@ public class SheetCreationService
             Defense = 10 + command.Attributes.Dexterity,
             Mana = 10
         };
+        dbContext.Add(sheet);
+        dbContext.SaveChanges();
+        return sheet;
     }
 }
