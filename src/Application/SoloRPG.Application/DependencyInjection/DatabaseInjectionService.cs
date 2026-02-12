@@ -28,6 +28,7 @@ public static class DatabaseInjectionService
                         break;
                 }
             });
+            services.AddScoped<DbContext>(provider => provider.GetRequiredService<Data.Database>());
             return services;
         }
     }
