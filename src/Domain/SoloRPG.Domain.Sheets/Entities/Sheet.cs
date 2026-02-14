@@ -6,7 +6,6 @@ namespace SoloRPG.Domain.Sheets.Entities;
 public class Sheet
 {
     public Guid? Id { get; private set; }
-    public required Guid PlayerId { get; set; }
 
     public required string Name { get; set; }
     public required string Class { get; set; }
