@@ -8,14 +8,15 @@ namespace SoloRPG.Api.Controllers;
 
 [ApiController]
 [Route("api/sheets")]
-public class SheetController(SheetCreationService sheetCreationService, DbContext dbContext) : ControllerBase
+public class SheetController(SheetService sheetService, DbContext dbContext) : ControllerBase
 {
     [HttpPost]
-    public IActionResult Create([FromBody] CreateSheetCommand command)
+    public async Task<IActionResult> CreateAsync([FromBody] CreateSheetCommand command, CancellationToken cancellationToken)
     {
-        var playerId = Guid.NewGuid();
-        var character = sheetCreationService.CreateSheet(playerId, command);
-        return Ok(character);
+        var sheet = await sheetService.CreateSheetAsync(command, cancellationToken);
+        if (sheet.Id is null)
+            return BadRequest("Failed to create character sheet.");
+        return Ok(sheet);
     }
 
     [HttpGet("/api/sheets/{id}")]
