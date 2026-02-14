@@ -10,6 +10,7 @@
   </Folder>
   <Folder Name="/src/Domain/">
     <Project Path="src/Domain/SoloRPG.Domain.Sheets/SoloRPG.Domain.Sheets.csproj" />
+    <Project Path="src/Domain/SoloRPG.Domain.Campaigns/SoloRPG.Domain.Campaigns.csproj" />
     <Project Path="src/Domain/SoloRPG.Domain.Rules/SoloRPG.Domain.Rules.csproj" />
     <Project Path="src/Domain/SoloRPG.Domain.Stories/SoloRPG.Domain.Stories.csproj" />
   </Folder>
