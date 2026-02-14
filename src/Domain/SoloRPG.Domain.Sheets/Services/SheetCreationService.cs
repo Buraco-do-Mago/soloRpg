@@ -1,9 +1,11 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using BumaSoft.DependencyWizard.Services;
+using Microsoft.EntityFrameworkCore;
 using SoloRPG.Domain.Sheets.Commands;
 using SoloRPG.Domain.Sheets.Entities;
 
 namespace SoloRPG.Domain.Sheets.Services;
 
+[Service]
 public class SheetCreationService(DbContext dbContext)
 {
     public Sheet CreateSheet(Guid playerId, CreateSheetCommand command)

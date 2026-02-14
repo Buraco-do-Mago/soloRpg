@@ -1,5 +1,5 @@
-﻿using SoloRPG.Domain.Rules.Flags;
-using SoloRPG.Domain.Sheets.Dtos;
+﻿using SoloRPG.Domain.Sheets.Dtos;
+using SoloRPG.Domain.Sheets.Flags;
 
 namespace SoloRPG.Domain.Sheets.Entities;
 

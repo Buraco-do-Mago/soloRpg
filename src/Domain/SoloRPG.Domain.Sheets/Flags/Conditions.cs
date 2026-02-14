@@ -1,4 +1,4 @@
-﻿namespace SoloRPG.Domain.Rules.Flags;
+﻿namespace SoloRPG.Domain.Sheets.Flags;
 
 [Flags]
 public enum Conditions
