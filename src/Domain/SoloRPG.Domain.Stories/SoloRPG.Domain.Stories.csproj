@@ -1,7 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\SoloRPG.Domain.Rules\SoloRPG.Domain.Rules.csproj" />
     <ProjectReference Include="..\..\Infra\SoloRPG.Infra\SoloRPG.Infra.csproj" />
   </ItemGroup>
 

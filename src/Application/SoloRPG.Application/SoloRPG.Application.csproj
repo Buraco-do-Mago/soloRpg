@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Domain\SoloRPG.Domain.Sheets\SoloRPG.Domain.Sheets.csproj" />
+    <ProjectReference Include="..\..\Domain\SoloRPG.Domain.Stories\SoloRPG.Domain.Stories.csproj" />
   </ItemGroup>
 
   <ItemGroup>

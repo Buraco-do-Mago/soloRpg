@@ -1,12 +1,12 @@
 ﻿using SoloRPG.Domain.Sheets.Dtos;
 using SoloRPG.Domain.Sheets.Flags;
+using SoloRPG.Infra.Interfaces;
 
 namespace SoloRPG.Domain.Sheets.Entities;
 
-public class Sheet
+public class Sheet : IEntity
 {
-    public Guid? Id { get; private set; }
-    public required Guid PlayerId { get; set; }
+    public Guid? Id { get; set; }
 
     public required string Name { get; set; }
     public required string Class { get; set; }
