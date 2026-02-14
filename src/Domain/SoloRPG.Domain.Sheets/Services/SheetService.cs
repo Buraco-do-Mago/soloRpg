@@ -13,7 +13,6 @@ public class SheetService(DbContext dbContext)
         int maxLife = 20 + (command.Attributes.Constitution * 2);
         var sheet = new Sheet
         {
-            PlayerId = playerId,
             Name = command.Name,
             Class = command.Class,
             Attributes = command.Attributes,
