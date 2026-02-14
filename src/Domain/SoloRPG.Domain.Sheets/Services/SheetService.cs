@@ -8,7 +8,7 @@ namespace SoloRPG.Domain.Sheets.Services;
 [Service]
 public class SheetService(DbContext dbContext)
 {
-    public Sheet CreateSheet(CreateSheetCommand command)
+    public async Task<Sheet> CreateSheetAsync(CreateSheetCommand command, CancellationToken cancellationToken)
     {
         int maxLife = 20 + (command.Attributes.Constitution * 2);
         var sheet = new Sheet
@@ -21,8 +21,8 @@ public class SheetService(DbContext dbContext)
             Defense = 10 + command.Attributes.Dexterity,
             Mana = 10
         };
-        dbContext.Add(sheet);
-        dbContext.SaveChanges();
+        await dbContext.AddAsync(sheet, cancellationToken);
+        await dbContext.SaveChangesAsync(cancellationToken);
         return sheet;
     }
 }
