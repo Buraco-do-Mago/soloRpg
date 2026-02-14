@@ -6,9 +6,9 @@ using SoloRPG.Domain.Sheets.Entities;
 namespace SoloRPG.Domain.Sheets.Services;
 
 [Service]
-public class SheetCreationService(DbContext dbContext)
+public class SheetService(DbContext dbContext)
 {
-    public Sheet CreateSheet(Guid playerId, CreateSheetCommand command)
+    public Sheet CreateSheet(CreateSheetCommand command)
     {
         int maxLife = 20 + (command.Attributes.Constitution * 2);
         var sheet = new Sheet
