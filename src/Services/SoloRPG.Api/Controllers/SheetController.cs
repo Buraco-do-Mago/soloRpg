@@ -5,8 +5,8 @@ using SoloRPG.Domain.Sheets.Services;
 namespace SoloRPG.Api.Controllers;
 
 [ApiController]
-[Route("api/character")]
-public class CharacterController(SheetCreationService sheetCreationService) : ControllerBase
+[Route("api/sheets")]
+public class SheetController(SheetCreationService sheetCreationService) : ControllerBase
 {
     [HttpPost]
     public IActionResult Create([FromBody] CreateSheetCommand command)
