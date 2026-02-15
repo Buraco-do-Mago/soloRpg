@@ -3,6 +3,9 @@
   <ItemGroup>
     <ProjectReference Include="..\..\Domain\SoloRPG.Domain.Sheets\SoloRPG.Domain.Sheets.csproj" />
     <ProjectReference Include="..\..\Domain\SoloRPG.Domain.Stories\SoloRPG.Domain.Stories.csproj" />
+    <ProjectReference Include="..\..\Domain\SoloRPG.Domain.Chats\SoloRPG.Domain.Chats.csproj" />
+    <ProjectReference Include="..\..\Domain\SoloRPG.Domain.Characters\SoloRPG.Domain.Characters.csproj" />
+    <ProjectReference Include="..\..\Domain\SoloRPG.Domain.Campaigns\SoloRPG.Domain.Campaigns.csproj" />
   </ItemGroup>
 
   <ItemGroup>
