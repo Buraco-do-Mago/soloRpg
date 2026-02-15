@@ -8,7 +8,6 @@ public class Sheet : IEntity
 {
     public Guid? Id { get; set; }
 
-    public required string Name { get; set; }
     public required string Class { get; set; }
     public int Level { get; private set; } = 1;
 
