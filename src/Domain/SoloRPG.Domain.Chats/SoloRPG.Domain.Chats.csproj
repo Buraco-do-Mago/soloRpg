@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Infra\SoloRPG.Infra\SoloRPG.Infra.csproj" />
+    <ProjectReference Include="..\SoloRPG.Domain.Characters\SoloRPG.Domain.Characters.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
